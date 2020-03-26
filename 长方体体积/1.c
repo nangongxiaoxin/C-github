@@ -29,5 +29,5 @@ int main()								/*主函数main*/
 int calculate(int Long, int Width)		/*定义计算体积函数*/
 {
 	int result = Long * Width * Height;		/*具体计算体积*/
-	return result;						/*将计算的体积结果返回*/
+	return result;						 /*将计算的体积结果返回*/
 }
