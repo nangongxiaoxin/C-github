@@ -2,7 +2,7 @@
 #include<stdlib.h>
 void AddOne()
 {
-	static int iInt2 = 10;
+	static int iInt2 = 10;//static仅在初次声明时有效
 	iInt2 = iInt2 + 1;
 	printf("%d\n", iInt2);
 
