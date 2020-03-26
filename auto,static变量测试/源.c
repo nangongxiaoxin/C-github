@@ -2,7 +2,7 @@
 #include<stdlib.h>
 void AddOne()
 {
-	auto int iInt1 = 1;//iInt1从第二次调用开始被多次声明
+	auto int iInt1 = 1;//iInt1从第二次调用开始被多次声明。
 	iInt1 = iInt1 + 1;
 	printf("%d\n", iInt1);
 }
