@@ -30,7 +30,7 @@ int main()
 
 	sum = sum1 + sum2 + sum3;
 
-	printf("ºÍÎª:%3.2f",sum);
+	printf("å’Œä¸º:%3.2f",sum);
 	system("pause");
 	return 0;
 }
