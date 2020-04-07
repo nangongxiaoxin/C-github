@@ -12,7 +12,7 @@ int main()
 		sum = sum + a;
 
 	}
-	printf("1+2!+3!+...+20!=%f",sum);
+	printf("1+2!+3!+...+20!=%.0f",sum);
 	system("pause");
 	return 0;
 }
