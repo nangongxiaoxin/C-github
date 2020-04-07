@@ -30,7 +30,7 @@ int main()
 
 	sum = sum1 + sum2 + sum3;
 
-	printf("和为：%3.2f",sum);
+	printf("和为:%3.2f",sum);
 	system("pause");
 	return 0;
 }
