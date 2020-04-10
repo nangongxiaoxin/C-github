@@ -9,7 +9,6 @@ int main()
 		{
 			printf("%d*%d=%2d  ", b,a , a * b);
 		}
-
 		printf("\n");
 	}
 	system("pause");
