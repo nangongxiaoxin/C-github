@@ -9,6 +9,7 @@ int main()
 			if (a % i == 0)break;
 		if (a == i)printf("%d\n", a);
 	}
+
 	system("pause");
 	return 0;
 }
