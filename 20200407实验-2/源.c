@@ -20,8 +20,6 @@ int main()
 	printf("z=%10.3f\n",z);
 	
 
-	
-
 	system("pause");
 	return 0;
 }
