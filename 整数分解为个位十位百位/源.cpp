@@ -16,6 +16,7 @@ int main()
 	{
 		printf("请正确输入一个三位整数\n");
 	}
+
 	system("pause");
 	return 0;
 }
