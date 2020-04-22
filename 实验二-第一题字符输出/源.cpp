@@ -12,6 +12,7 @@ int main()
 	scanf("%c%c",&c1,&c2);
 
 	printf("a=%d,b=%dx=%2.1f,y=%4.2f,c1=%c,c2=%c",a,b,x,y,c1,c2);
+
 	system("pause");
 	return 0;
 }
