@@ -19,6 +19,7 @@ int main()
 	printf("排序后最大的数为：\n");
 	printf("%d", a[9]);
 	printf("\n");
+
 	return 0;
 	system("pause");
 }
