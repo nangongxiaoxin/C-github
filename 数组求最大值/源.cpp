@@ -4,7 +4,7 @@ int main()
 {
 	int a[10];
 	int i, j, t;
-	printf("请输入10个需要排序的数：\n");
+	printf("请输入10个数：\n");
 	for (i = 0; i < 10; i++)
 		scanf_s("%d", &a[i]);
 	printf("\n");
@@ -19,7 +19,6 @@ int main()
 	printf("排序后最大的数为：\n");
 	printf("%d", a[9]);
 	printf("\n");
-
 	return 0;
 	system("pause");
 }
