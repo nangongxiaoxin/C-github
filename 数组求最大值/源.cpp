@@ -17,7 +17,7 @@ int main()
 				a[i + 1] =t;
 			}
 	printf("排序后最大的数为：\n");
-	printf("a[9]=%d", a[9]);
+	printf("a9=%d", a[9]);
 	printf("\n");
 	return 0;
 	system("pause");

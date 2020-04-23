@@ -14,7 +14,7 @@ int main()
 		{
 			b++;
 		}
-		else if(c == ' ' )
+		else if(c == '32' )
 		{
 			d++;
 		}
