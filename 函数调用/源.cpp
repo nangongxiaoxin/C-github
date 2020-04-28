@@ -14,11 +14,11 @@ int b(int x)
 {
 	if (x > 0)
 	{
-		x = -x;
 		return (x);
 	}
 	else
 	{
+		x = -x;
 		return (x);
 	}
 }
