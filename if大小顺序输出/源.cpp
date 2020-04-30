@@ -44,6 +44,7 @@ int main()
 				printf("%d %d %d", b, c, a);
 			}
 	}
+
 	system("pause");
 	return 0;
 }
