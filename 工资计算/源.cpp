@@ -3,9 +3,10 @@
 #include<stdlib.h>
 int main()
 {
-	int sales, n = 0;
+	double sales;
+	int n;
 	double s = 0;
-	scanf_s("%d", &sales);
+	scanf_s("%lf", &sales);
 	if (sales >= 50000)
 	{
 		n = 1;
@@ -32,8 +33,8 @@ int main()
 		break;
 	default:s = 200 + sales * 0.03;
 		break;
-	}
-	printf("工资是：%f\n", s);
+	}	
+	printf("工资是：%lf\n", s);
 	system("pause");
 	return 0;
 }
