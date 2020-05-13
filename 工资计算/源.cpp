@@ -33,7 +33,8 @@ int main()
 		break;
 	default:s = 200 + sales * 0.03;
 		break;
-	}	
+	}
+
 	printf("¹¤×ÊÊÇ£º%lf\n", s);
 	system("pause");
 	return 0;
