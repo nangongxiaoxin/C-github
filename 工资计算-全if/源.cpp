@@ -3,7 +3,7 @@
 int main()
 {
 	double a = 0, b = 0;
-	printf("请输入工资：\n");
+	printf("请输入月销售额：\n");
 	scanf_s("%lf", &a);
 	if (a >= 0)
 	{
