@@ -45,11 +45,12 @@ int main()
 	scanf_s("%d",&n);
 	if(n>=1)
 	{
-	for(i=1;i<=n;i++);
+	for(i=1;i<=n;i++)
 	{
 		a=i+a;
 	
 	}
+	printf("1到%d的累加和为：%d\n",n,a);
 	}
 	else
 	{
