@@ -1,0 +1,62 @@
+1到100累加和
+while语句
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int i=1,a=0;
+	while(i>=1&&i<=100)
+	{
+		a=i+a;
+		i++;
+	}
+	printf("%d",a);
+	system("pause");
+	return 0;
+}
+
+1到100奇数和
+do-while语句
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int i=1,a=0;
+	do
+	{
+		a=i+a;
+		i++;
+		i=i+1;
+	}
+	while(i>=1&&i<=100);
+	printf("%d",a);
+	system("pause");
+	return 0;
+}
+
+1到n累加和
+for语句
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	int i,n,a=0;
+	printf("输入整数n的值:\n");
+	scanf_s("%d",&n);
+	if(n>=1)
+	{
+	for(i=1;i<=n;i++)
+	{
+		a=i+a;
+	
+	}
+	printf("1到%d的累加和为：%d\n",n,a);
+	}
+	else
+	{
+	printf("输入错误\n");
+	}
+
+	system ("pause");
+	return 0;
+}
