@@ -67,13 +67,14 @@ int main()
 #include<stdlib.h>
 int main()
 {
-float a=1,b=2,d,sum=0;
+float a=1,b=2,c,d,sum=0;
 int i;
 for(i=1;i<=20;i++)
 	{
 		d=b/a;
-		b=b+a;
+		c=b+a;
 		a=b;
+		b=c
 		sum=sum+d;
 	}
 	printf("%5.2f\n",sum);
