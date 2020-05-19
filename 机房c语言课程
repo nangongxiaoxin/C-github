@@ -60,3 +60,24 @@ int main()
 	system ("pause");
 	return 0;
 }
+
+
+实验六
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+float a=1,b=2,d,sum=0;
+int i;
+for(i=1;i<=20;i++)
+	{
+		d=b/a;
+		b=b+a;
+		a=b;
+		sum=sum+d;
+	}
+	printf("%5.2f\n",sum);
+
+system("pause");
+return 0;
+}
