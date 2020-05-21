@@ -167,5 +167,27 @@ int main()
 
 
 
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	double a[4]={5,1,2,3,4};
+	double b;
+	int i;
+	for(i=0;i<5;i++)
+	{
+		b=a[i]+b;
+	}
+	printf("%lf",b/4);
+	
+	system("pause");
+	return 0;
+	
+}
+
+
+
+
 
 
