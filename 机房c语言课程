@@ -152,3 +152,65 @@ int main()
 	return 0;
 	system("pause");
 }
+
+实验七 数组1
+实验目的：
+1、	掌握一维数组的定义、赋值和输入输出的方法。
+2、	掌握与数组有关的排序算法。
+
+实验题目：
+1、	定义一个有5个元素的整型一维数组，给数组元素赋值后，计算数组元素的平均值并输出。
+2、	将一个数组中的值按逆序重新存放。
+例如，原来顺序为8，6，5，4，1。要求改为1，4，5，6，8。
+
+3、	有8个数按从大到小的顺序排列。
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	double a[4]={5,1,2,3,4};
+	double b;
+	int i;
+	for(i=0;i<5;i++)
+	{
+		b=a[i]+b;
+	}
+	printf("%lf",b/4);
+	
+	system("pause");
+	return 0;
+	
+}
+
+
+
+
+
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int a[5]={1,2,3,4,5};
+	int b[5]={0};
+	int i,j=4;
+	for(i=0;i<5;i++)
+	{
+		
+		b[j]=a[i];
+		j--;
+	
+					
+	}
+	for(i=0;i<5;i++)
+	{
+	printf("%d",b[i]);
+	}
+	system("pause");
+	return 0;
+	
+}
