@@ -214,3 +214,39 @@ int main()
 	return 0;
 	
 }
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>              //从大到小排序
+int main()
+{
+    int x[8];
+    int i,a,b,c;
+    for(i=0;i<8;i++)
+    {
+        scanf("%d",&x[i]);
+    }
+    printf("\n");
+    for(a=0;a<7;a++)
+    {
+        for(b=0;b<7-a;b++)
+        {
+            if(x[i]<x[i+1])     //比较
+            {
+                c=x[i];         //传递
+                x[i]=x[i+1];
+                x[i+1]=c;
+            }
+        }
+        printf("\n");
+        for(i=0;i<8;i++)
+        {
+            printf(" %d",x[i]);
+        }
+    }
+    
+    system("pause");
+    return 0;
+}
