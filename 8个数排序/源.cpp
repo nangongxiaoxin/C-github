@@ -27,6 +27,7 @@ int main()
     {
         printf(" %d", x[b]);
     }
+
     system("pause");
     return 0;
 }

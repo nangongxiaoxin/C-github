@@ -2,8 +2,8 @@
 #include<stdlib.h>
 int main()
 {
-	int a[5] = { 8,6,5,4,1 };
-	int i, b, N = 5;
+	int a[6] = { 8,6,5,4,1,9 };
+	int i, b, N = 6;
 	for (i = 0; i < N / 2; i++)
 	{
 		b = a[i];
@@ -11,7 +11,7 @@ int main()
 		a[N-1] = b;
 		N--;
 	}
-	for (i = 0; i < 5; i++)
+	for (i = 0; i < 6; i++)
 	{
 		printf(" %d", a[i]);
 	}
