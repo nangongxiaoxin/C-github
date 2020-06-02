@@ -341,3 +341,24 @@ int sum(int x)
 	return (a);
 }
 
+
+
+#include<stdio.h>
+#include<stdlib.h>
+float fac(int n)
+{
+	float f;
+	if(n<0)
+		printf("intput error!\n");
+	else if(n==||n==1)
+		f=1;
+	else f=n*fac(n-1);
+	return (f);
+}
+void main()
+{
+	int n;
+	float y;
+	printf("input!");
+	scanf("%d!=%15.0f",n,y);
+}
