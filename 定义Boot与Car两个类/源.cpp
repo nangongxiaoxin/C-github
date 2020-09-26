@@ -1,34 +1,41 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-class boot
+class boat										//boat类
 {
-private:
-	double a;
 public:
-	static void weight(double a);
+	int weight;
+	boat();
+	boat(int weight)
+	{
+		this->weight = weight;					//自我初始化
+	 }
+	
+	
 };
 class car
 {
-private:
-	double b;
 public:
-	static void weight(double b);
+	int weight;
+	//car();
+	car(int weight)
+	{
+		this->weight = weight;
+	}
 };
-//class totalweight
-//{
-//	double d;
-//	boot::weight() + car::weight();
-//	cout << d<< endl;
-//};
+
 int main()
 {
-	boot B;
-	B.weight(50.0);
-	car C;
-	C.weight(80.0);
-	//totalweight;
-	cout << B.weight + C.weight << endl;
+	boat() ;
+	
+	//B.show();
+	car ;
+
+	//C.show();
 	system("pause");
 	return 0;
+}
+
+car::car()
+{
 }
