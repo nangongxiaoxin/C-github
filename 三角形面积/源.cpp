@@ -1,58 +1,59 @@
 #include<iostream>
-//#include<math.h>
+#include<cmath>
 using namespace std;
-
 class sanjiao
 {
+	double a, b, c;
 public:
-	sanjiao(int a, int b, int c)
+	sanjiao(double a, double b, double c)
 	{
 		this->a = a;
 		this->b = b;
 		this->c = c;
 	}
-	void  S(sanjiao& s)
+	void s(sanjiao &d)
 	{
-		cout << "面积 " << 0.5 * (s.a + s.b + s.c);
+		double p;
+		p = (d.a + d.b + d.c) / 2;
+		cout <<"面积是"<< sqrt(p * (p - d.a) * (p - d.b) * (p - d.c));
 	}
-	void Issanjiao(sanjiao& s)
+	void f(sanjiao& d)
 	{
-		int temp = 0;
-		if (s.a > s.b)
+		double x;
+		if (d.a > d.b)	//使d.a是两者最小
 		{
-			temp = s.a;
-			s.a = s.b;
-			s.b = temp;
+			x = d.a;
+			d.a = d.b;
+			d.b = x;
 		}
-		if (s.b > s.c)
+		if (d.b > d.c)	//使d.b是两者最小；即通过两个if使a、b、c按从小到大排列
 		{
-			temp = s.b;
-			s.b = s.c;
-			s.c = temp;
+			x = d.b;
+			d.b = d.c;
+			d.c = x;
 		}
-		if (s.a * s.a + s.b * s.b == s.c * s.c)
+		if (d.a* d.a + d.b * d.b == d.c * d.c)
 		{
-			cout << ",是直角三角形" << endl;
+			cout << "，是直角三角形" << endl;
 		}
-		else if (s.a * s.a + s.b * s.b > s.c * s.c)
+		if (d.a * d.a + d.b * d.b > d.c * d.c)
 		{
-			cout << ",是钝角三角形" << endl;
+			cout << "，是锐角三角形" << endl;
 		}
-		else
+		if (d.a * d.a + d.b * d.b < d.c * d.c)
 		{
-			cout << ",是锐角三角形" << endl;
+			cout << "，是钝角三角形" << endl;
 		}
 	}
-private:
-	int a, b, c;
+	int main()
+	{
+		int a, b, c;
+		cin >> a >> b >> c;
+		sanjiao C(a, b, c);
+		C.s(C);
+		C.f(C);
+		system("pause");
+		return 0;
+	}
+
 };
-int main()
-{
-	int a, b, c;
-	cin >> a >> b >> c;
-	sanjiao C(a, b, c);
-	C.S(C);
-	C.Issanjiao(C);
-	system("pause");
-	return 0;
-}
