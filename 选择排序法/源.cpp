@@ -2,19 +2,19 @@
 #include<stdlib.h>
 int main()
 {
-	int a[8];
+	int a[10];
 	int i,j,b,c;
-	printf("输入8个数:\n");
-	for (int i = 0; i < 8; i++)
+	printf("输入10个数:\n");
+	for (int i = 0; i < 10; i++)
 	{
 		printf("a[%d]:", i);
 		scanf_s("%d", &a[i]);
 	}
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 10; i++)
 	{
 		b = a[i];
 		c = i;
-		for (j = i + 1; j < 8; j++)
+		for (j = i + 1; j < 10; j++)
 		{
 			if (a[j] < b)
 			{
@@ -25,7 +25,7 @@ int main()
 		a[c] = a[i];
 		a[i] = b;
 	}
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < 10; i++)
 	{
 		printf("%d\t", a[i]);
 		if (i == 3)
