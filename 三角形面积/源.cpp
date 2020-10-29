@@ -11,11 +11,11 @@ public:
 		this->b = b;
 		this->c = c;
 	}
-	void s(sanjiao &d)
+	void s(sanjiao& d)
 	{
 		double p;
 		p = (d.a + d.b + d.c) / 2;
-		cout <<"面积是"<< sqrt(p * (p - d.a) * (p - d.b) * (p - d.c));
+		cout << "面积是" << sqrt(p * (p - d.a) * (p - d.b) * (p - d.c));
 	}
 	void f(sanjiao& d)
 	{
@@ -32,7 +32,7 @@ public:
 			d.b = d.c;
 			d.c = x;
 		}
-		if (d.a* d.a + d.b * d.b == d.c * d.c)
+		if (d.a * d.a + d.b * d.b == d.c * d.c)
 		{
 			cout << "，是直角三角形" << endl;
 		}
@@ -45,6 +45,7 @@ public:
 			cout << "，是钝角三角形" << endl;
 		}
 	}
+};
 	int main()
 	{
 		int a, b, c;
@@ -52,8 +53,5 @@ public:
 		sanjiao C(a, b, c);
 		C.s(C);
 		C.f(C);
-		system("pause");
 		return 0;
 	}
-
-};
