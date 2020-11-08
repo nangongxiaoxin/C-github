@@ -159,11 +159,10 @@ debug/moc_exampleA.cpp: C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QCoreApplic
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobject_impl.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qeventloop.h \
 		../QT-p66/exampleA.h
-	C:\Qt\Qt5.3.1\5.3\mingw482_32\bin\moc.exe $(DEFINES) -D__GNUC__ -DWIN32 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/mkspecs/win32-g++ -IF:/C-qt/QT-p66/QT-p66 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtGui -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore -I. ..\QT-p66\exampleA.h -o debug\moc_exampleA.cpp
+	C:\Qt\Qt5.3.1\5.3\mingw482_32\bin\moc.exe $(DEFINES) -D__GNUC__ -DWIN32 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/mkspecs/win32-g++ -IF:/C/nangongxiaoxin/C-github/QT-p66/QT-p66 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtGui -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore -I. ..\QT-p66\exampleA.h -o debug\moc_exampleA.cpp
 
-debug/moc_exampleB.cpp: C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QDebug \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qdebug.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qalgorithms.h \
+debug/moc_exampleB.cpp: C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QCoreApplication \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcoreapplication.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qglobal.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qconfig.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qfeatures.h \
@@ -192,23 +191,19 @@ debug/moc_exampleB.cpp: C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QDebug \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qglobalstatic.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qmutex.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qnumeric.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qhash.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qchar.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qiterator.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qlist.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qrefcount.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qpair.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qmap.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qtextstream.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qiodevice.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobject.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobjectdefs.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qnamespace.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobjectdefs_impl.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstring.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qchar.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qbytearray.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qrefcount.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qnamespace.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qarraydata.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstringbuilder.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobject.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobjectdefs.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobjectdefs_impl.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qlist.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qalgorithms.h \
+		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qiterator.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcoreevent.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qscopedpointer.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qmetatype.h \
@@ -216,22 +211,9 @@ debug/moc_exampleB.cpp: C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QDebug \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcontainerfwd.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qisenum.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobject_impl.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qlocale.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qvariant.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstringlist.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qdatastream.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qregexp.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstringmatcher.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qshareddata.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qvector.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qpoint.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qset.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcontiguouscache.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QCoreApplication \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcoreapplication.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qeventloop.h \
 		../QT-p66/exampleB.h
-	C:\Qt\Qt5.3.1\5.3\mingw482_32\bin\moc.exe $(DEFINES) -D__GNUC__ -DWIN32 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/mkspecs/win32-g++ -IF:/C-qt/QT-p66/QT-p66 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtGui -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore -I. ..\QT-p66\exampleB.h -o debug\moc_exampleB.cpp
+	C:\Qt\Qt5.3.1\5.3\mingw482_32\bin\moc.exe $(DEFINES) -D__GNUC__ -DWIN32 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/mkspecs/win32-g++ -IF:/C/nangongxiaoxin/C-github/QT-p66/QT-p66 -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtGui -IC:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore -I. ..\QT-p66\exampleB.h -o debug\moc_exampleB.cpp
 
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
@@ -299,25 +281,7 @@ debug/main.o: ../QT-p66/main.cpp ../QT-p66/exampleA.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qisenum.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qobject_impl.h \
 		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qeventloop.h \
-		../QT-p66/exampleB.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/QDebug \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qdebug.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qhash.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qpair.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qmap.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qtextstream.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qiodevice.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qlocale.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qvariant.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstringlist.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qdatastream.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qregexp.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qstringmatcher.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qshareddata.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qvector.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qpoint.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qset.h \
-		C:/Qt/Qt5.3.1/5.3/mingw482_32/include/QtCore/qcontiguouscache.h
+		../QT-p66/exampleB.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\QT-p66\main.cpp
 
 debug/moc_exampleA.o: debug/moc_exampleA.cpp 

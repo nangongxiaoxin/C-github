@@ -2,16 +2,15 @@
 #define EXAMPLEB_H
 #include<QDebug>
 #include<QCoreApplication>
+#endif // EXAMPLEB_H
 class CExampleB:public QObject
 {
     Q_OBJECT
 public:
     CExampleB(){}
 public slots:
-    void Function(int NewVal)
+    void Function(int nNewVal)
     {
-        qDebug()<<"new Values="<<NewVal;
+        qDebug()<<"new Values="<<nNewVal;
     }
 };
-
-#endif // EXAMPLEB_H

@@ -1,11 +1,15 @@
 #ifndef EXAMPLEA_H
 #define EXAMPLEA_H
+
 #include<QCoreApplication>
+
+#endif // EXAMPLEA_H
+
 class CExampleA:public QObject
 {
     Q_OBJECT
 public:
-    CExampleA(){m_Value;}
+    CExampleA(){m_Value=0;}
     void SetValue(int nNewVal)
     {
         if(m_Value==nNewVal)
@@ -19,6 +23,5 @@ signals:
     void stateChanged(int nNewVal);
 private:
     int m_Value;
-};
 
-#endif // EXAMPLEA_H
+};
