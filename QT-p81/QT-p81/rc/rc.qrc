@@ -1,13 +1,1 @@
-<RCC>
-    <qresource prefix="/">
-        <file>1.ico</file>
-        <file>2.ico</file>
-        <file>3.ico</file>
-        <file>4.ico</file>
-        <file>5.ico</file>
-        <file>black.ico</file>
-        <file>button.ico</file>
-        <file>off.ico</file>
-        <file>rc.qrc</file>
-    </qresource>
-</RCC>
+<RCC/>

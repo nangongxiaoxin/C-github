@@ -18,4 +18,4 @@ SOURCES += main.cpp\
 HEADERS  += dialog.h
 
 RESOURCES += \
-    rc/rc.qrc
+    button.qrc
