@@ -28,5 +28,4 @@ Dialog::Dialog(QWidget *parent)
 
 Dialog::~Dialog()
 {
-
 }
