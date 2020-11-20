@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rc/1.ico</file>
+        <file>rc/2.ico</file>
+        <file>rc/3.ico</file>
+        <file>rc/4.ico</file>
+        <file>rc/5.ico</file>
+        <file>rc/6.ico</file>
+        <file>rc/open.ico</file>
+        <file>rc/play.ico</file>
+    </qresource>
+</RCC>
