@@ -1,4 +1,4 @@
-#ifndef DIALOG_H
+﻿#ifndef DIALOG_H
 #define DIALOG_H
 
 #include <QDialog>
@@ -12,7 +12,9 @@ public:
     Dialog(QWidget *parent = 0);
     ~Dialog();
 public slots:
-    void item_DblClicked(QTreeWidget *item,int column);
+    void item_DblClicked(QTreeWidgetItem *item,int column);
+private:
+    QTreeWidget *tree;
 };
 
 #endif // DIALOG_H
