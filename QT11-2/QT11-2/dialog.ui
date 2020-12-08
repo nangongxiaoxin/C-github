@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1006</width>
+    <height>770</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>981</width>
+     <height>641</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startBtn">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>670</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>启动定时器</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stopBtn">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>670</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>终止定时器</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
