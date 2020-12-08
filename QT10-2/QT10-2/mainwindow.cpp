@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 
 #include <QMouseEvent>
 MainWindow::MainWindow(QWidget *parent)
@@ -48,7 +48,7 @@ void MainWindow::mouseDoubleClickEvent(QMouseEvent *e)//鼠标双击事件
     QString str="("+QString::number(e->x())+","+QString::number(e->y())+")";
     if(e->button()==Qt::LeftButton)
     {
-        statusBar()->showMessage(tr("鼠标左键在当前位置双击:")+str);//当鼠标左键双击显示临时信息
+        statusBar()->showMessage(tr("鼠标左键在当前位置双击:")+str,5000);//当鼠标左键双击显示临时信息
     }
     else if(e->button()==Qt::RightButton)
     {

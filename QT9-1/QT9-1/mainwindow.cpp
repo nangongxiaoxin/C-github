@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+﻿#include "mainwindow.h"
 #include <QSplitter>
 #include <QTextEdit>
 MainWindow::MainWindow(QWidget *parent)
@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
       QTextEdit *left2=new QTextEdit(QObject::tr("左窗口2"),MainWin);  //水平分割的窗口left2
       left2->setAlignment(Qt::AlignCenter);
 
-      QSplitter *MainWin2=new QSplitter(Qt::Vertical,MainWin);  //此处为水平分开的第三个窗口，我们将其上下分开
+      QSplitter *MainWin2=new QSplitter(Qt::Vertical,MainWin);  //此处为水平分开的第三个窗口，我们将其上下分开    如果不加MainWin会导致垂直分割的窗口和水平分割的窗口独立存在
 
       MainWin2->setOpaqueResize(false); //设置拖动分割条时只显示灰线，拖动到位再显示分割条
 
