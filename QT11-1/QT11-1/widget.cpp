@@ -4,8 +4,8 @@ Widget::Widget(QWidget *parent)
     : QWidget(parent)
 {
     setFocusPolicy(Qt::StrongFocus);//使用方向键时添加
-    btn=new QPushButton("我是可移动的",this);
-    btn->setGeometry(40,40,150,40);
+    btn=new QPushButton("猜吗，猜猜是谁能动嘛",this);
+    btn->setGeometry(40,40,180,40);
 }
 
 Widget::~Widget()
@@ -33,7 +33,7 @@ void Widget::keyPressEvent(QKeyEvent *e)
     }
     if(e->key()==Qt::Key_A&&e->modifiers()==Qt::ControlModifier)
     {
-        QMessageBox::about(this,"我是弹窗","我是弹窗内容");
+        QMessageBox::about(this,"我是弹窗","别弹了");
     }
     QWidget::keyPressEvent(e);
 }
