@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>add.png</file>
+        <file>del.png</file>
+        <file>modify.png</file>
+        <file>search.png</file>
+        <file>show.png</file>
+        <file>mainWindow.jpg</file>
+        <file>registe.jpg</file>
+        <file>sign.jpg</file>
+    </qresource>
+</RCC>
